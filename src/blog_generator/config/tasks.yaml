@@ -1,0 +1,26 @@
+planning_task:
+  description: >
+    Develop a detailed content outline for {topic} that identifies main sections,
+    subsections, and key points to guide content creation.
+  expected_output: >
+    A structured outline for {topic} featuring clear headings, bullet points,
+    and a logical flow of ideas.
+  agent: content_planner
+
+writing_task:
+  description: >
+    Transform the outline into a 1000-word blog post in markdown format,
+    incorporating clear language, illustrative examples, and engaging content.
+  expected_output: >
+    A comprehensive, well-organized blog post that faithfully follows the outline
+    and provides insightful examples.
+  agent: content_writer
+
+editing_task:
+  description: >
+    Review and refine the blog post to ensure it aligns with the outline,
+    is free of errors, and exhibits enhanced structure, tone, and readability.
+  expected_output: >
+    A polished, error-free blog post that meets high standards of clarity,
+    coherence, and grammatical accuracy.
+  agent: content_editor
